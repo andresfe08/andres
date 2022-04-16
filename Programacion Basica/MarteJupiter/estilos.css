@@ -1,0 +1,25 @@
+body{
+    color: #ffffff;
+    background-color: #252850;
+    background-image: url(fondo.png);
+    text-align: center;
+    font-family: Arial;
+}
+
+.ColorMarte{
+    color: red;
+}
+
+.ColorJupiter{
+    color: orange;
+}
+
+.ColorVenus{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3d4183;
+}
