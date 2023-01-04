@@ -10,6 +10,11 @@ body{
     background-color: #3b5998;
 }
 
+nav{
+    background-color: #3b5998;
+    width: 100%;
+}
+
 .cont-todo{
     background-color: #fff;
     width: 100%;
@@ -35,13 +40,13 @@ body{
     width: 100%;
 }
 
-nav{
+.loge{
     width: 100;
     height: 60px;
     display: flex;
 }
 
-nav img{
+.loge img{
     width: 110px;
     margin: 0px auto;
     justify-content: center;
