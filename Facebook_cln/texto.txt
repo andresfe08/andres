@@ -1,0 +1,22 @@
+https://docs.google.com/forms/d/e/1FAIpQLSeahERzJsfVHBtEiYcyWaFnu7Mpj4bPBCfjJq4Q9Ijm3t-JyA/viewform?usp=pp_url&entry.1051410455=pepito&entry.2002323380=perezz77
+http://127.0.0.1:5500/
+
+https://datosyusuarios3-default-rtdb.europe-west1.firebasedatabase.app/topico
+
+import { initializeApp } from "firebase/app";
+import { getDatabase } from "firebase/database";
+
+// TODO: Replace the following with your app's Firebase project configuration
+// See: https://firebase.google.com/docs/web/learn-more#config-object
+const firebaseConfig = {
+  // ...
+  // The value of `databaseURL` depends on the location of the database
+  databaseURL: "https://DATABASE_NAME.firebaseio.com",
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
+// Initialize Realtime Database and get a reference to the service
+const database = getDatabase(app);
